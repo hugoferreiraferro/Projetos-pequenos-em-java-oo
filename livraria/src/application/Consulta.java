@@ -37,7 +37,7 @@ public class Consulta {
 		while(i < 1) {
 		if ("yes".equalsIgnoreCase(chouce)) { //Muito legal, não sabia desse método equalsIgnoreCase
 			System.out.println("enter the date of the last book you picked up (format: \"dd/MM/yyyy)");
-			Date WithDrawaIDate = sdf.parse(sc.next());
+			Date WithDrawaIDate = sdf.parse(sc.next()); //adicioanr a data e depois calcular o tempo da retirada e o dia atual
 			i++;
 		}
 		else if ("no".equalsIgnoreCase(chouce)) {

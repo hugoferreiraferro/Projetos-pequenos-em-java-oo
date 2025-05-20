@@ -16,13 +16,13 @@ public class Book {
 	
 	
 
-	public Book(Gender gender, Integer quantity, Read read) {
+	public Book(Gender gender, Integer quantity, Read read) { //construtor para o leitor
 		this.gender = gender;
 		this.quantity = quantity;
 		this.read = read;
 	}
 
-	public Book(String title, String author, Gender gender, Integer numberForPages) {
+	public Book(String title, String author, Gender gender, Integer numberForPages) { //construtor do funcionário
 		super();
 		this.title = title;
 		this.author = author;
@@ -30,7 +30,7 @@ public class Book {
 		this.numberForPages = numberForPages;
 	}
 
-	public Book(String title, String author, Gender gender, Integer numberForPages, Read read, Integer quantity) {
+	public Book(String title, String author, Gender gender, Integer numberForPages, Read read, Integer quantity) { //construtor para o banco de dados(?)
 		this.title = title;
 		this.author = author;
 		this.gender = gender;
