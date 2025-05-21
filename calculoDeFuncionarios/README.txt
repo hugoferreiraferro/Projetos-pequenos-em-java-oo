@@ -1,0 +1,1 @@
+Esse exercício foi feito para treinar herança e polifomismo
