@@ -24,14 +24,21 @@
     <fullyQualifiedTypeName name="entites.ImportedProduct"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="entites.UsedProduct"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="entites.NaturalPerson"/>
     <fullyQualifiedTypeName name="entites.LegalPerson"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
-    <fullyQualifiedTypeName name="java.util.Locale"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="model.entites.Account"/>
     <fullyQualifiedTypeName name="model.execptions.DomainExecption"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="model.enums.Level"/>
+    <fullyQualifiedTypeName name="model.entites.Aluno"/>
+    <fullyQualifiedTypeName name="model.entites.Instructor"/>
+    <fullyQualifiedTypeName name="model.execeptions.DomainEnums"/>
+    <fullyQualifiedTypeName name="model.execeptions.DomainExepections"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="model.entites.Course"/>
+    <fullyQualifiedTypeName name="javax.management.RuntimeErrorException"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
 </qualifiedTypeNameHistroy>
