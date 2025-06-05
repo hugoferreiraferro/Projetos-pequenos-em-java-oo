@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="entites.Client"/>
-    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
-    <fullyQualifiedTypeName name="entites.OrderItem"/>
-    <fullyQualifiedTypeName name="entites.Order"/>
     <fullyQualifiedTypeName name="entites.Costumer"/>
     <fullyQualifiedTypeName name="entites.enums.OrderRoom"/>
     <fullyQualifiedTypeName name="entites.Room"/>
@@ -56,8 +51,13 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="model.entities.driver.Driver"/>
-    <fullyQualifiedTypeName name="model.trip.Trip"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="model.trip.Trip"/>
+    <fullyQualifiedTypeName name="application.Program"/>
+    <fullyQualifiedTypeName name="pages.Employee"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="model.entities.driver.DriversTypes"/>
+    <fullyQualifiedTypeName name="model.entities.driver.DriverBus"/>
+    <fullyQualifiedTypeName name="model.entities.driver.DriveSubway"/>
 </qualifiedTypeNameHistroy>

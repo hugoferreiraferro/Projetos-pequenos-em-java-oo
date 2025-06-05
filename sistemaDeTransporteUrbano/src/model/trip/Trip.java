@@ -11,17 +11,13 @@ public class Trip {
 	private MeansOfTransport transport;
 	private List<Driver> driver = new ArrayList<Driver>();
 	private Double KMs;
-	private LocalDate startTime;
-	private LocalDate endTime;
-
 	public Trip() {
 	}
 
-	public Trip(MeansOfTransport transport, Double kMs, LocalDate startTime, LocalDate endTime) {
+	public Trip(MeansOfTransport transport, Double kMs) {
 		this.transport = transport;
 		KMs = kMs;
-		this.startTime = startTime;
-		this.endTime = endTime;
+	
 	}
 
 	public MeansOfTransport getTransport() {
@@ -44,21 +40,6 @@ public class Trip {
 		KMs = kMs;
 	}
 
-	public LocalDate getStartTime() {
-		return startTime;
-	}
-
-	public void setStartTime(LocalDate startTime) {
-		this.startTime = startTime;
-	}
-
-	public LocalDate getEndTime() {
-		return endTime;
-	}
-
-	public void setEndTime(LocalDate endTime) {
-		this.endTime = endTime;
-	}
 	
 	public void addEmployee(Driver drive) {
 		driver.add(drive);

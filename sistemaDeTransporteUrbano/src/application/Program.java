@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 import model.entities.driver.Driver;
 import model.trip.Trip;
+import pages.Employee;
 
 public class Program {
 
@@ -13,59 +14,21 @@ public class Program {
 		Scanner sc = new Scanner(System.in);
 
 		Trip trip = new Trip();
+		Employee employee = new Employee(trip);
 
 		System.out.println("Are you an employee or a passenger? Employee: 1 passanger: 2");
 		int number = sc.nextInt();
 
+		//chama a página customizada para o funcionário
 		number = checkLogin(number, sc);
 
-		while (number != 0) {
-			while (number == 1) {
-				System.out.println("--- Employee Menu --- \n" + "1. Register new employee\n" + "2.List employees\n"
-						+ "3.To go out");
-				number = sc.nextInt();
-				sc.nextLine();
-				switch (number) {
-				case 1: {
-					System.out.print("Enter the employee's name: ");
-					String name = sc.nextLine();
-					System.out.print("Login with registratio: ");
-					String registration = sc.nextLine();
-					Driver driver = new Driver(name, registration);
-					trip.addEmployee(driver);
-					break;
-				}
-				case 2: {
-					System.out.println("List employees: ");
-					for (Driver d : trip.getDriver()) {
-						System.out
-								.println("Name: " + d.getName() + "\n" + "Registration: " + d.getRegistration() + "\n");
-					}
-					number = 1;
-					break;
-				}
-
-				case 3: {
-					number = 0;
-					break;
-				}
-				default: {
-					System.out.println("Invalid option");
-					number = 1;
-				}
-
-				}
-
-			}
-			while (number ==2) {
-				
-			}
-
-		}
+		//chama a página customizada para o cliente
+		employee.pageEmployee(number, sc);
 
 		sc.close();
 	}
 
+	// funções
 	public static int checkLogin(int number, Scanner sc) {
 		sc.nextLine();
 		switch (number) {
@@ -89,11 +52,6 @@ public class Program {
 				System.out.print("Senha: ");
 				senha = sc.nextLine();
 			}
-
-		}
-		case 2: {
-
-			return 2;
 
 		}
 

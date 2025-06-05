@@ -1,6 +1,6 @@
 package model.entities.driver;
 
-public class Driver {
+public abstract class Driver {
 	private String name;
 	private String registration;
 	
@@ -26,6 +26,8 @@ public class Driver {
 	public void setRegistration(String registration) {
 		this.registration = registration;
 	}
+	
+	public abstract String driverDetails();
 	
 	
 	
