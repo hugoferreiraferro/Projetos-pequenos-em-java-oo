@@ -27,7 +27,7 @@ public class DriveSubway extends Driver {
 		sb.append("Name: ");
 		sb.append(getName() + "\n");
 		sb.append("Registration: ");
-		sb.append(getRegistration());
+		sb.append(getRegistration( ) + "\n");
 		sb.append("Rote: ");
 		sb.append(stations + "\n");
 		return sb.toString();

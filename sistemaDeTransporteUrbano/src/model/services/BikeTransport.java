@@ -5,17 +5,19 @@ import java.time.LocalDateTime;
 public class BikeTransport implements MeansOfTransport {
 
 	@Override
-	public void startTrip(int kms) {
+	public LocalDateTime startTrip(int kms) {
 		LocalDateTime ltd = LocalDateTime.now();
+		return ltd;
 
 	}
 
 	@Override
-	public void endTrip(int kms) {
+	public LocalDateTime endTrip(int kms) {
 		LocalDateTime ltd = LocalDateTime.now();
 		double durationHours = kms / 10;
 		int hours = (int) durationHours;
 		LocalDateTime arrivalTime = ltd.plusHours(hours);
+		return arrivalTime;
 
 	}
 

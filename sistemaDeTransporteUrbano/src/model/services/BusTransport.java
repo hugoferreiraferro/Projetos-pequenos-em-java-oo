@@ -7,16 +7,18 @@ public class BusTransport implements MeansOfTransport {
 	LocalDateTime ltdPlus;
 
 	@Override
-	public void startTrip(int kms) {
+	public LocalDateTime startTrip(int kms) {
 		ldt = LocalDateTime.now();
+		return ldt;
 
 	}
 
 	@Override
-	public void endTrip(int kms) {
+	public LocalDateTime endTrip(int kms) {
 		double durationHours = kms / 15;
 		int hours = (int) durationHours;
 		LocalDateTime arrivalTime = ldt.plusHours(hours);
+		return arrivalTime;
 	}
 
 	@Override

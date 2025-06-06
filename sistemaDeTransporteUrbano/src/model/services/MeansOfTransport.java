@@ -1,9 +1,11 @@
 package model.services;
 
+import java.time.LocalDateTime;
+
 public interface MeansOfTransport {
-	void startTrip(int kms);
+	LocalDateTime startTrip(int kms);
 	
-	void endTrip(int kms);
+	LocalDateTime endTrip(int kms);
 	
 	double calculateCosts(int passagem);
 

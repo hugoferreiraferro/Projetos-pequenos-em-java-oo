@@ -11,8 +11,25 @@ public class Trip {
 	private MeansOfTransport transport;
 	private List<Driver> driver = new ArrayList<Driver>();
 	private Double KMs;
+	private TravelOfReport travel;
 	public Trip() {
 	}
+
+	
+	public TravelOfReport getTravel() {
+		return travel;
+	}
+
+
+	public void setTravel(TravelOfReport travel) {
+		this.travel = travel;
+	}
+
+
+	public void setDriver(List<Driver> driver) {
+		this.driver = driver;
+	}
+
 
 	public Trip(MeansOfTransport transport, Double kMs) {
 		this.transport = transport;

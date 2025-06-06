@@ -22,8 +22,9 @@ public class Program {
 		//chama a página customizada para o funcionário
 		number = checkLogin(number, sc);
 
-		//chama a página customizada para o cliente
+		//chama a página customizada para o funcionário
 		employee.pageEmployee(number, sc);
+		
 
 		sc.close();
 	}
