@@ -7,26 +7,29 @@ import model.services.MeansOfTransport;
 public class addData {
 	private MeansOfTransport meansOfTransport;
 	private TravelOfReport travel;
+	private Trip trip;
 
-	
 	public addData() {
 	}
-	
-	
 
-	public addData(MeansOfTransport meansOfTransport) {
+	
+	public addData(MeansOfTransport meansOfTransport, Trip trip) {
 		super();
 		this.meansOfTransport = meansOfTransport;
+		this.trip = trip;
 	}
 
 
+	public addData(MeansOfTransport meansOfTransport) {
+		this.meansOfTransport = meansOfTransport;
+	}
 
 	public void addingDateToTrip(int kms, int passagem) {
 		double totalPrice = meansOfTransport.calculateCosts(passagem);
 		LocalDateTime dateInitial = meansOfTransport.startTrip(kms);
 		LocalDateTime dateEnd = meansOfTransport.endTrip(kms);
 
-		travel = new TravelOfReport(dateInitial, dateEnd, totalPrice);
+		trip.getTravel().add(new TravelOfReport(dateInitial, dateEnd,totalPrice));
 	}
 
 }

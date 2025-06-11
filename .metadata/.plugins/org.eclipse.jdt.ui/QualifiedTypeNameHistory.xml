@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.ProcessBuilder"/>
-    <fullyQualifiedTypeName name="entites.Read"/>
-    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-    <fullyQualifiedTypeName name="entites.enums.Gender"/>
     <fullyQualifiedTypeName name="entites.Book"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
     <fullyQualifiedTypeName name="entites.OutsourcedEmployee"/>
@@ -32,18 +28,14 @@
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthScrollPaneUI"/>
-    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatterBuilder"/>
     <fullyQualifiedTypeName name="model.contract.entites.Contract"/>
     <fullyQualifiedTypeName name="model.contract.services.ContractServices"/>
     <fullyQualifiedTypeName name="model.contract.services.PaypalService"/>
     <fullyQualifiedTypeName name="model.contract.services.OnlinePaymentService"/>
-    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
     <fullyQualifiedTypeName name="model.contract.entites.Installment"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.sql.Driver"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="model.services.MeansOfTransport"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="model.entities.driver.Driver"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="model.trip.Trip"/>
@@ -54,10 +46,18 @@
     <fullyQualifiedTypeName name="model.entities.driver.DriverBus"/>
     <fullyQualifiedTypeName name="model.entities.driver.DriveSubway"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="model.trip.TravelOfReport"/>
     <fullyQualifiedTypeName name="model.trip.addData"/>
     <fullyQualifiedTypeName name="model.services.BusTransport"/>
     <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="model.entities.veiculos.Subway"/>
+    <fullyQualifiedTypeName name="model.services.Subway"/>
+    <fullyQualifiedTypeName name="model.services.BikeTransport"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="model.trip.TravelOfReport"/>
+    <fullyQualifiedTypeName name="java.text.Format"/>
+    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
+    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatterBuilder"/>
 </qualifiedTypeNameHistroy>

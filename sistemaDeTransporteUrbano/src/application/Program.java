@@ -3,8 +3,8 @@ package application;
 import java.util.Locale;
 import java.util.Scanner;
 
-import model.entities.driver.Driver;
 import model.trip.Trip;
+import pages.Client;
 import pages.Employee;
 
 public class Program {
@@ -15,16 +15,23 @@ public class Program {
 
 		Trip trip = new Trip();
 		Employee employee = new Employee(trip);
+		Client client = new Client();
 
 		System.out.println("Are you an employee or a passenger? Employee: 1 passanger: 2");
 		int number = sc.nextInt();
 
-		//chama a página customizada para o funcionário
-		number = checkLogin(number, sc);
+		// checa o login e senha do funcionário
+		if(number == 1) {
+			number = checkLogin(number, sc);
 
-		//chama a página customizada para o funcionário
+		// chama a página customizada para o funcionário
 		employee.pageEmployee(number, sc);
+		}
 		
+		// chama a página customizada para o cliente
+		if ( number == 2){
+			client.clientPage(number, sc);
+		}
 
 		sc.close();
 	}

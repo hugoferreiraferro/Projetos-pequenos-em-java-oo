@@ -6,6 +6,8 @@ public class TravelOfReport {
 	private LocalDateTime now;
 	private LocalDateTime arrivalForecast;
 	private Double priceTotal;
+	
+	
 	public TravelOfReport() {}
 
 	
@@ -35,6 +37,8 @@ public class TravelOfReport {
 	public Double getPriceTotal() {
 		return priceTotal;
 	}
+	
+	
 
 	
 	
